@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Personal Details Form</title>
+</head>
+<body>
+	<form action="next.php" method="post">
+		<p>
+			<label><br><b><i>Personal Details</i></b></label>
+		</p>
+		<p>
+			<label>Firstname:</label>
+			<input type="text" name="name">
+		</p>
+		<p>
+			<label>Lastname:</label>
+			<input type="text" name="name">
+		</p>
+		<p>
+			<label>Gender:</label>
+			<select name="gend">
+				<option value="male">select</option>
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+				<option value="female">Others</option>
+			</select>
+		</p>
+		<p>
+			<label>Email:</label>
+			<input type="email" name="email">
+		</p>
+		<p>
+			<label>Date of Birth:</label>
+			<input type="date" name="birthdate">
+		</p>
+		<p>
+			<label>Address:</label>
+			<br>
+			<textarea></textarea>
+		</br>
+
+		</p>
+		<input type="submit" name="submit" value="submit">
+
+
+	</form>
+
+
+
+
+</body>
+</html>
